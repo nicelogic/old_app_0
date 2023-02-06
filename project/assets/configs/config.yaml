@@ -1,0 +1,62 @@
+
+app:
+  serverUrl: wss://niceice.cn/ws
+  httpServerUrl: niceice.cn
+  accountServiceUrl: https://niceice.cn/account
+  authenticationServiceUrl: https://niceice.cn/auth
+  pubsubServiceUrl: https://niceice.cn/pubsub
+  pubsubServiceSubscriptionUrl: wss://niceice.cn/pubsub
+  messageServiceUrl: https://niceice.cn/message
+  messageServiceSubscriptionUrl: wss://niceice.cn/message
+  rtcSignalingServiceUrl: niceice.cn/p2p-signaling
+  # messageServiceUrl: http://localhost:80
+  # messageServiceSubscriptionUrl: ws://localhost:80
+        #   httpUrl: 'http://10.0.2.2:80/message',
+        # wsUrl: 'ws://10.0.2.2:80/message',
+  failTimesToShowDisconnect: 3
+  horizontalPadding: 24
+  desktopLeastWidth: 360
+  objectStorageAccessKey: admin
+  objectStorageSecretKey: password
+  objectStoragePort: 9000
+  objectStorageUserAvatar: avatar.png
+  buglyAppId: 113f713bbe
+  lastVersionApkUrl: https://apk.niceice.cn/app-arm64-v8a-release.apk
+
+name:
+  appName: NiceIce
+  chatNavigation: 聊天
+  contactNavigation: 通讯录
+  meNavigation: 我
+  avatar: 头像
+  userName: 昵称
+  email: 邮箱
+  emailAuthCode: 邮箱验证码
+  register: 注册
+  login: 登录
+  useWechatLogin: 使用微信登陆
+  useFaceReconitionLogin: 使用人脸识别登陆
+  id: 账号
+  personProfile: 个人信息 
+  changeProfile: 更改个人信息
+  signature: 个性签名
+  save: 保存
+  pleaseInputNewName: 请输入新名字 
+  pleaseInputNewSignature: 请输入新签名
+  settings: 设置
+  quit: 退出
+  
+prompt:
+  authenticationFailed: 验证失败
+  authenticationSuccess: 验证成功
+  authenticating: 验证中
+  getAccountFailed: 获取账户失败
+  tryReconnect: 尝试连接服务器(部分功能不可用)
+  idCanNotChange: 暂不支持修改ID
+  canNotChange: 暂不支持修改
+
+path:
+  logo: 'assets/images/logo/logo.png'
+
+limit:
+  maxNameBytes: 21

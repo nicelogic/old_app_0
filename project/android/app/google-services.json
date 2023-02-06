@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1084403003535",
+    "project_id": "niceice-549cc",
+    "storage_bucket": "niceice-549cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1084403003535:android:f8d4d1f2e99739058340fa",
+        "android_client_info": {
+          "package_name": "com.niceice.niceice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1084403003535-vdi6pp7ms6lt6g4ulq2p12mt7kiuntbn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvrmobMgOEgfitVQBsU06FFnH3WHzcoH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1084403003535-vdi6pp7ms6lt6g4ulq2p12mt7kiuntbn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
